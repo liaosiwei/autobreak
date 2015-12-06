@@ -28,6 +28,10 @@ func Percentile(data []float64, percentile int) float64 {
 
 func Mean(data []float64) float64 {
 	sum := 0.0
+	if len(data) > 2 {
+		sort.Float64s(data)
+		data = data[1 : len(data)-1]
+	}
 	for _, value := range data {
 		sum += value
 	}
