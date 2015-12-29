@@ -8,10 +8,8 @@ repeat = 5
 [nodes]
     [nodes."name1"]
         address = "https://xxx.pac"
-
     [nodes."name2"]
         address = "https://xxx.pac"
-
     [nodes."name3"]
         address = "https://xxx.pac"
 </pre></code>
